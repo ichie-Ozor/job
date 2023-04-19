@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Mukta:wght@400;500;600;700&family=Oswald:wght@300;400&family=Roboto:wght@400;500;700&display=swap');
+body{
+    margin: 0;
+    display: block;
+    overflow-x: hidden;
+}
+.top-page__up{
+    display: block;
+}
+.top-page{
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+    overflow-x: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.top-page__logo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 23px;
+    margin-left: 180px;
+    margin-top: 70px;
+    position: relative;
+}
+.top-page__header{
+    display: flex;
+    color: #f0f0f0;
+}
+.history > span, .team > span{
+    display: flex;
+    margin-top: 85px;
+    margin-right: 50px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+.history__link{
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.team__link{
+    color: black;
+    text-decoration: none;
+}
+.top-page__header > span {
+    margin-left: 500px;
+}
+.links{
+    display: flex;
+    margin-left: 1000px;
+}
+.history, .team{
+    font-size: 13px;
+    font-weight: 600;
+}
+.top-page__under{
+    position: relative;
+    margin-top: 42.5rem;
+    display: flex;
+}
+.link2{
+    margin-left: 900px;
+    display: flex;
+    width: 700px;
+    margin-top: -45px;
+}
+.top-page__under__img{
+    width: 10rem;
+    height: 80px;
+    margin-left: 100px;
+}
+.history2{
+    display: flex;
+    height: 105px;
+    width: 135px;
+    padding: 0;
+}
+.history2 > span, .team2 > span{
+    border-bottom: 1px solid black;
+}
+
+/*********************** History page *******************/
+.history__image{
+    height: 60rem;
+    width: 100%;
+    position: absolute;
+}
+.history__page-text{
+margin: auto;
+width: 60%;
+display: block;
+position: relative;
+margin-top: 30px;
+padding-top: 50px;
+}
+.history__page-text-inner{
+    display: flex;
+    translate: -7.5%;
+    height: 150px;
+    align-items:end
+}
+.one1{
+    position: absolute;
+   font-size: 138px;
+   top: 0;
+   padding-bottom: 0;
+   align-items: end;
+   color: #687794;
+   display: flex;
+   font-weight: bold;
+   line-height: 149px;
+   font-family: "Oswald", sans-serif;
+}
+.one{
+    position: absolute;
+    font-size: 33px;
+    line-height:35px;
+    margin-left: 20px;
+    font-weight: 900;
+    color: #4d5d77;
+    top: 50px;
+    left:13%;
+    bottom: 2px;
+    font-family: "Oswald", sans-serif;
+}
+.empty{
+    width: 30px;
+    height: 30px;
+    margin-top: 0;
+    padding: 0;
+    background:#687794;
+    left: 147px;
+    top: -28px;
+    position: relative;
+}
+.history__page-text > p{
+    margin-top: 0px;
+}
+/******* Carousel-History ********/
+
+.carousel{
+   position: absolute;
+   width: 100%;
+   height: 183px;
+   background: rgb(208, 210, 209, 0.7);
+   top: 103.3rem;
+   display: block;
+   padding: 20px;
+}
+.carousel__inner{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    width: 50%;
+}
+.carousel__inner>img{
+    margin-left: 10px;
+}
+.carousel__scrol{
+    display: flex;
+    margin-left: 51.5rem;
+    margin-top: 20px;
+}
+.carousel__dot{
+    background: #f0f0f0;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-left: 5px;
+    cursor: pointer;
+}
+/******************Second Page begins here***************/
+.second__page__intro{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-top: 706px;
+    background: #f0f0f0;
+}
+.two{
+    position: absolute;
+   font-size: 138px;
+   top: 0;
+   padding-bottom: 0;
+   align-items: end;
+   display: flex;
+   font-weight: bold;
+   line-height: 149px;
+   color: #a1a7b5;
+   font-family: "Oswald", sans-serif;
+}
+.second__page__intro-main{
+    margin: auto;
+    width: 55%;
+    display: flex;
+    margin-top: 42px;
+    }
+    .climb{
+        margin-left: 158px;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-top: 70px;
+        color: #404b5f;
+        font-family: "Oswald", sans-serif;
+    }
+    .second__page__text{
+        margin-left: 30px;
+        margin-top: 60px;
+        font-size: 20px;
+    }
+    .empty2{
+        background: #a1a7b5;
+        width: 20px;
+        height: 20px;
+    }
+    /******************Second page main begins here*************/
+    .second__page__nav{
+        width: 100%;
+        height: 40px;
+        background: #414f6a;
+    }
+    .second__page__nav__inner{
+        display: flex;
+        margin-left: 40px;
+    }
+    .mountain1, .mountain2{
+        display: flex;
+        margin-bottom: 0;
+        padding: 0;
+        height: 70px;
+    }
+    .active2{
+        background: #b0b4bf;
+        padding: 5px  30px 0px 30px;
+        height: 35px;
+        font-family: "Oswald";
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .mountain2, .mountain1{
+        background: #414f6a;
+        padding: 5px  30px 0px 30px;
+        height: 35px;
+        font-family: "Oswald";
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .mountain2:hover, .mountain1:hover{
+        cursor: pointer;
+        background: #b0b4bf;
+    }
+    .schedule2 {
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 137rem;
+        left: 450px;
+        display: none;
+    }
+    .schedule1{
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 137rem;
+        left: 90px;
+        display: block;
+    }
+    .mountain1 > span, .mountain2 > span {
+        border-bottom: 1px solid #414f6a;
+        height: 26px;
+    }
+    .second__page__image{
+        width: 100%;
+        height: 45rem;
+    }
+    .second__page__main{
+        margin: 0;
+    }
+    .second__page__main-body{
+        height: 45rem;
+    }
+    /********footer**********/
+    .footer{
+        width: 100%;
+        margin: 0;
+    }
+    .footer__image{
+        width: 100%;
+        margin: 0;
+    }
+    .active, .carousel__dot:hover {
+        background-color: #717171;
+      }
+    /**************Media Querry****************/
+    @media screen and (max-width: 1900px){
+        .links{
+            display: flex;
+            margin-left: 800px;
+        }     
+    }
+    @media (min-width:959px) and (max-width:1500px){
+        .links{
+            display: flex;
+            margin-left: 550px;
+        }
+    }
+    @media (min-width:550px) and (max-width: 958px){
+        .top-page{
+            width: 380px;
+        }
+        .top-page__logo{
+            width: 40px;
+            height: 40px;
+            margin-top: 30px;
+            margin-left:70px;
+        }
+        .links{
+            display: flex;
+            margin-left: 50px;
+            margin-top: -30px;
+        }        
+        .one{
+            font-size: 35px;
+            top: 35px;
+            left: -40px;
+        }
+        .empty{
+            width: 10px;
+            height: 10px;
+            left: -45px;
+            top:-82px;
+        }
+        .history__image{
+            width: 380px;
+        }
+        .second__page__intro{
+            height: 100px;
+            margin-top: 609px;
+        }
+        .top-page__under__img{
+            width: 120px;
+            height: 50px;
+            margin-left: 20px;
+            margin-top: 90px;
+        }
+        .link2{
+            margin-left:  360px;
+            margin-top: 30px;
+        }
+        .one1{
+            font-size: 35px;
+            margin-top: -20px;
+            margin-left: -90px;
+        } 
+        .history__page-text > p{
+            margin-left: -120px;
+            margin-top: -60px;
+            width: 300px;
+        }
+        .carousel{
+            width: 380px;
+        }
+        .carousel__inner{
+            margin-left: 10px;
+        }
+        .two{
+            font-size: 30px;
+            margin-left: 10px;
+            margin-top: -50px;
+        }
+        .empty2{
+            width: 10px;
+            height: 10px;
+        }
+        .climb{
+            margin-left:  50px;
+            margin-top: 8px;
+            font-size: 1rem;
+        }
+        .second__page__text{
+            margin-top: 50px;
+            margin-left: -80px;
+            width: 350px;
+            font-size: 15px;
+        }
+        .second__page__nav{
+            width: 380px;
+        }
+        .mountain1, .mountain2{
+            width: 90px;
+            font-size: 13px;
+            padding: 5px 5px;
+        }
+        .second__page__nav__inner{
+            margin-left: 40px;
+        }
+        .second__page__intro, .second__page__intro-main{
+            width: 380px;
+        }
+        .second__page__image{
+            width: 380px;
+            height: 30rem;
+        }
+        .second__page__main-body{
+            height: 30rem;
+        }
+        .schedule1, .schedule{
+            width: 200px;
+            height: 200px;
+            top: 125rem;
+            left: 40px;
+        }
+        .footer__image{
+            width: 380px;
+        }
+    }
+    @media (min-width:355px) and (max-width: 549px){
+        .links{
+            display: flex;
+            margin-left: 50px;
+        }
+        .top-page{
+            width:390px;  
+        }
+        .history__page-text-inner{
+            margin-top: -70px;
+        }
+        .history__page-text >p{
+           margin-top: -40px;
+           width: 290px;
+           margin-left: -20px;
+        }
+        .top-page__logo {
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+        .top-page__under__img{
+            width: 4rem;
+            height: 30px;
+            margin-left: 20px; 
+            margin-top: 40px;
+        }
+        .link2{
+            margin-left: 100px;
+            display: flex;
+            width: 50px;
+            margin-top: -45px;
+        }
+        .team__link{
+            width: 50px;
+            display: flex;
+            font-size: 10px;
+            font-weight: 400;
+        }
+        .history2 >span {
+            width: 80px;
+        }
+        .one1{
+            font-size: 40px;
+            top: -10px;
+        }
+        .one{
+            font-size: 25px;
+        }
+        .empty{
+            width: 8px;
+            height: 8px;
+            left: 43px;
+            top:-72px;
+        }
+        .two{
+            font-size: 35px;
+            left: 30px;
+            top: -10px;
+            height: 100px;
+        }
+        .empty2{
+            width: 13px;
+            height: 13px;
+        }
+        .climb{
+            margin-left: 80px;
+            font-size: 15px;
+            margin-bottom: 0px;
+            font-weight: 400;
+            width: 70px;
+            margin-top: 140px;
+            position: relative;
+        }
+        .climb > span{
+            margin-top: 10px;
+        }
+        .second__page__intro-main{
+            display: block;
+            width: 100%;
+            margin: 0%;
+        }
+        .carousel{
+            margin-top: -130px;
+        }
+        .second__page__text{
+            margin-top: 20px;
+        }
+        .second__page__intro{
+            margin-top: 575px;
+            height: 150px;
+        }
+        .second__page__image, .second__page__main-body{
+            height: 30rem;
+        }
+        .schedule1, .schedule{
+            width: 150px;
+            height: 150px;
+            top: 132rem;
+            left: 40px;
+        }
+}
